@@ -22,7 +22,8 @@ const LeftSidebar = () => {
     <nav className='leftsidebar'>
         <div className="flex flex-col gap-11">
             <Link to="/" className='flex gap-3 items-center' >
-                <img src="/assets/logo.svg" alt="logo" width={170} height={36} />
+                <img src="/assets/tofgram.png" alt="logo"  width={50} height={36} />
+                Tofgram
             </Link>
             <Link to={`/profile/${user.id}`} className='flex flex-center gap-3'>
                 <img src={user.imageUrl || '/assets/icons/profile-placeholder.svg'} alt="profile" 
